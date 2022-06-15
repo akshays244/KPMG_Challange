@@ -3,7 +3,7 @@
 This Project containes Answers for  Question 1 , Question 2 , Question 3 ! 
 
 ---------------------------------Question-1---------------------------------------------------------------------------------------------------------
-Create a 3 tier Archietecture 
+Create a 3 tier Archietecture (Terraform) 
 Assumptions :- 
 1.  Network with Public,Private Subnet exists 
 2.  Provider (OCI)
