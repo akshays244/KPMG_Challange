@@ -22,4 +22,9 @@ Terraform apply command is used to create or introduce changes to real infrastru
 
 --> Extracting Metadata from AWS instance and output into Json 
 
+Steps to make code work 
+Step 1: Use pip to install Ec2_metadata
+Step2: retreive the data into JSOn array itself 
+step3: chose an indent level and output the data 
+
 
