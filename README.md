@@ -27,4 +27,10 @@ Step 1: Use pip to install Ec2_metadata
 Step2: retreive the data into JSOn array itself 
 step3: chose an indent level and output the data 
 
+---------------------------------Question-3-----------------------------------------------------
+
+Utilize the reduce fucntion for printing the value in a nested dictionaly  , keep default to none 
+
+--------------------------------------------------------------
+
 
