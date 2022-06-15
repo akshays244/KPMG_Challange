@@ -1,2 +1,14 @@
-TOKEN=`curl -X PUT "http://169.254.169.254/latest/api/token" -H "X-aws-ec2-metadata-token-ttl-seconds: 21600"` \
-&& curl -H "X-aws-ec2-metadata-token: $TOKEN" -v http://169.254.169.254/latest/meta-data/
+Retreiving a data key from an instance 
+
+Prereqs:- Python 3.7 to 3.11
+
+Step.1 Use pip:
+
+python -m pip install ec2-metadata
+
+Usage Example 
+>>>from ec2_metadata import ec2_metadata
+>>> print(ec2_metadata.region)
+us-east-1
+>>> print(ec2_metadata.instance_id)
+i-123456
