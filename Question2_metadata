@@ -1,6 +1,4 @@
-Retreiving a data key from an instance 
-
-Prereqs:- Python 3.7 to 3.11
+Retreiving a data key from metadata of an instance (Prereqs:- Python 3.7 to 3.11)
 
 Step.1 Use pip:
 
